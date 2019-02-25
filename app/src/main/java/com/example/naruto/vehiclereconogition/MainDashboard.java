@@ -25,7 +25,7 @@ public class MainDashboard extends AppCompatActivity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {  // fb ko message padh
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maindashboard);
-
+        setTitle("Activity Dashboard");
         Toolbar mainToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mainToolbar);
 
